@@ -11,3 +11,8 @@
 - `Preloader`: load all assets before actual game, if done the game proceeds to `MainMenu`
 - `MainMenu`: title screen and main menu before actual game
 - `Game`: the actual game
+
+## WebGL lag workaround
+When WebGL is rendering slow and laggy on your machine, change this line in `app.js`:
+`var game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameContainer');`
+`var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'gameContainer');`
