@@ -12,6 +12,9 @@ window.onload = function() {
   game.state.add('Game', BasicGame.Game);
 
   //  Now start the Boot state.
-  game.state.start('Boot');
+  //game.state.start('Boot');
+
+  // TODO - Temp code for development
+  game.state.start('Game');
 
 };
