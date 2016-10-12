@@ -17,7 +17,7 @@ BasicGame.Game.prototype = {
     this.sea = this.add.tileSprite(0, 0, 800, 600, 'sea');
 
     // Accepts x-y-coords of our sprite and the name of the sprite which we assigned in load.image()
-    this.sea = this.add.Sprite(400, 300, 'bullet');
+    this.bullet = this.add.sprite(400, 300, 'bullet');
 
   },
 
