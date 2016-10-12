@@ -1,5 +1,12 @@
 #HTML 5 SHMUP Game
 
+## How to run
+Open `index.html` page in your browser.
+
+## Compatability
+There are still allot of issues with in a variety of browsers.
+This project has not been tested for cross-browser compatability.
+
 ## Project structure
 - `index.html`: main html5 page that links all files together
 - `phaser-arcade-physics.min.js`: stripped version of 2 other physics engines (you can replace this with the full version if you plan to)
